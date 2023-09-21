@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background:rgba(191, 245, 255, .5)
+}
+
+.container{
+    padding:5px;
+    background: #fff;
+    display: block;
+    margin: 50px auto ;
+}
+
+.container .row{
+    display:flex;
+}
+
+.container .node{
+    box-shadow:0px 10px 20px grey;
+    transition: .2s;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height:70px;
+    width:70px;
+    background: #414141;
+    margin:3px;
+    font-size: 20px;
+}
